@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dev-note/static/css/main.dc4d6ff2.css",
+    "main.js": "/dev-note/static/js/main.2e163470.js",
+    "index.html": "/dev-note/index.html",
+    "main.dc4d6ff2.css.map": "/dev-note/static/css/main.dc4d6ff2.css.map",
+    "main.2e163470.js.map": "/dev-note/static/js/main.2e163470.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc4d6ff2.css",
+    "static/js/main.2e163470.js"
+  ]
+}
