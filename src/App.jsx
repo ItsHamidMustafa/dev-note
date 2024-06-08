@@ -6,8 +6,8 @@ import React, { useState } from 'react';
 // import React from 'react';
 // import Alert from './components/Alert';
 // import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import About from './components/About';
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import About from './components/About';
 
 // const router = createBrowserRouter([
 //   {
@@ -62,16 +62,16 @@ function App() {
 
   return (
     <>
-      <Router>
+      { /* <Router>
         <Routes>
-          <Route path="/" element={
+          <Route path="/" element={ */ }
             <Layout mode={mode} showAlert={showAlert} toggleMode={toggleMode} alert={alert} isChecked={isChecked} />
-          }>
-          </Route>
-          <Route path='about' element={<About text="This is about tag" />} />
-          {/* <Route path="/about" element={<About text="This is about tag" />}/> */}
+          {/* }> */}
+          {/* </Route> */}
+          {/* <Route path='about' element={<About text="This is about tag" />} /> */}
+          {/* <Route path="/about" element={<About text="This is about tag" />}/> 
         </Routes>
-      </Router>
+      </Router>*/}
     </>
   )
 }
